@@ -4,6 +4,10 @@ import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
+document.addEventListener('focus', () => {
+  console.log('focused on:', document.activeElement)
+}, true)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
