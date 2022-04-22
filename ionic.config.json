@@ -1,0 +1,7 @@
+{
+  "name": "InputFocusBlur",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
